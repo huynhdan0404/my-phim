@@ -1,0 +1,41 @@
+.nav {
+    height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: #0c2738;
+
+    .navContent {
+        width: 1111px;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        color: white;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        cursor: pointer;
+        line-height: 80px;
+        font-size: 17px;
+        display: inline-block;
+        min-width: 70px;
+        padding: 0 16px 0;
+    }
+
+    .menu {
+        display: flex;
+        color: aliceblue;
+        color: #899ead;
+    }
+
+    .menu li:hover {
+        color: white;
+    }
+}
